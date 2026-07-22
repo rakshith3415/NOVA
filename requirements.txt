@@ -1,0 +1,17 @@
+SpeechRecognition==3.10.0
+pyttsx3==2.90
+requests==2.31.0
+ollama==0.1.7
+python-dotenv==1.0.0
+pyautogui==0.9.53
+selenium==4.15.2
+webdriver-manager==4.0.1
+Pillow==10.1.0
+numpy==1.24.3
+python-dateutil==2.8.2
+pyaudio==0.2.13
+pycaw==20240106
+keyboard==0.13.5
+mouse==1.0.3
+windows-curses==2.4.1
+psutil==5.9.6
