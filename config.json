@@ -1,0 +1,45 @@
+{
+  "ollama": {
+    "host": "localhost",
+    "port": 11434,
+    "model": "qwen:7b",
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "top_k": 40,
+    "num_predict": 128,
+    "stream": false
+  },
+  "voice": {
+    "language": "en",
+    "wake_word": "hey nova",
+    "listening_timeout": 10,
+    "response_timeout": 30,
+    "microphone_index": 0,
+    "tts_engine": "pyttsx3",
+    "tts_rate": 150,
+    "tts_volume": 0.9
+  },
+  "system": {
+    "debug": false,
+    "log_level": "INFO",
+    "auto_start": false,
+    "voice_feedback": true
+  },
+  "chrome": {
+    "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "headless": false,
+    "implicit_wait": 10
+  },
+  "models": {
+    "available": [
+      "qwen:7b",
+      "qwen:3b",
+      "gemma:7b",
+      "gemma:2b",
+      "llama2:7b",
+      "neural-chat:7b",
+      "mistral:7b"
+    ],
+    "recommended": "qwen:7b"
+  }
+}
